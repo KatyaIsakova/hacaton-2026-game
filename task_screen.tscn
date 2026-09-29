@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://dgmeemcw2btfm"]
+
+[ext_resource type="Script" uid="uid://dps43uwhgyhpi" path="res://task_screen.gd" id="1_71vcs"]
+
+[node name="TaskScreen" type="Control" unique_id=1786037998]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_71vcs")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1814107606]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 680.0
+offset_bottom = 1618.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.70734155, 0.93594456, 0.9999997, 1)
+
+[node name="ThemeLabel" type="Label" parent="." unique_id=1597677687]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 40.0
+offset_right = 690.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 28
+horizontal_alignment = 1
+
+[node name="QuestionLabel" type="Label" parent="." unique_id=1662549524]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 120.0
+offset_right = 690.0
+offset_bottom = 320.0
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Option1" type="Button" parent="." unique_id=754393459]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 360.0
+offset_right = 690.0
+offset_bottom = 450.0
+theme_override_font_sizes/font_size = 24
+autowrap_mode = 2
+
+[node name="Option2" type="Button" parent="." unique_id=451108834]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 480.0
+offset_right = 690.0
+offset_bottom = 570.0
+theme_override_font_sizes/font_size = 24
+autowrap_mode = 2
+
+[node name="HintLabel" type="Label" parent="." unique_id=790633268]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 610.0
+offset_right = 690.0
+offset_bottom = 760.0
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+autowrap_mode = 2
